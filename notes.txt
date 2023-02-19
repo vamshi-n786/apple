@@ -1,0 +1,57 @@
+for using drawing tool in react native
+
+https://medium.com/react-native-rocket/building-a-hand-drawing-app-with-react-native-skia-and-gesture-handler-9797f5f7b9b4
+
+to install gesture handler use the below command
+
+npm install --save react-native-gesture-handler
+
+to install react native skia
+
+npm install @shopify/react-native-skia
+
+
+npx react-native init AwesomeProject --version v0.70.7
+// to start a new project
+
+// for navigation of screens we need to install a package
+npm install @react-navigation/native
+npm install @react-navigation/stack
+
+
+// other dependencies
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+// to install gesture handler library
+npm install react-native-gesture-handler
+npm install react-native screens
+
+
+when u integrate firebase in react native u have to use fingerprint sha-1 certificate in order to downlaod it u have to use th ebelow commadns
+
+ cd android && ./gradlew signingReport
+
+ in order to use NAVIGATION DRAWER use "yarn-add react-native-reanimated" plugin or "yarn add react-native-reanimated"
+ add babel.config.js plugin available animationTypehttps://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation/
+
+// for deprecated-react-native-prop-types
+npm i deprecated-react-native-prop-types
+
+
+// To change app name before downloading apk
+android -> app -> build -> src  -> main -> res -> values -> string.xml file to change name of your app
+
+
+// To release app in apk format
+cd android
+./gradlew assembleRelease
+
+// To use vector icons
+npm install --save react-native-vector-icons
+
+// To use bottom tab navigation use
+npm install @react-navigation/bottom-tabs 
+
+// voice recognition library
+npm i @react-native-voice/voice --save
