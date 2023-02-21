@@ -55,3 +55,11 @@ npm install @react-navigation/bottom-tabs
 
 // voice recognition library
 npm i @react-native-voice/voice --save
+
+// inorder to use nested navigation inside another use
+<NavigationContainer independent={true}>
+
+
+//for using text to speech in react native cli and to use library
+import Speech from 'react-native-tts';
+npm i react-native-tts 

@@ -13,6 +13,7 @@
     "@benjeau/react-native-draw-extras": "^0.2.2",
     "@react-native-community/slider": "^4.4.2",
     "@react-native-masked-view/masked-view": "^0.2.8",
+    "@react-native-voice/voice": "^3.1.5",
     "@react-navigation/bottom-tabs": "^6.5.5",
     "@react-navigation/native": "^6.1.4",
     "@react-navigation/stack": "^6.3.14",
@@ -25,6 +26,7 @@
     "react-native-screens": "^3.20.0",
     "react-native-sketch": "^1.1.0",
     "react-native-svg": "^13.8.0",
+    "react-native-tts": "^4.1.0",
     "react-native-vector-icons": "^9.2.0",
     "react-speech-recognition": "^3.10.0",
     "rn-perfect-sketch-canvas": "^0.3.0"

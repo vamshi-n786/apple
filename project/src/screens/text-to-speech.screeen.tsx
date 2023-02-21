@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import { Button, TextInput, View, StyleSheet } from "react-native";
+import {Button, TextInput, View, StyleSheet} from 'react-native';
 //import * as Speech from 'expo-speech';
-import {Speech,SpeechRecognition,  useSpeechRecognition } from 'react-speech-recognition'
+import Speech from 'react-native-tts';
+//import * as Speech from 'react-speech-recognition';
 
 export default function TextToSpeechScreen(): JSX.Element {
   const [iptValue, setIptValue] = useState<string>('');
   
-  function speak (): void {
+  function speak(): void {
     const thingToSay = iptValue;
     Speech.speak(thingToSay, {
       language: 'pt-BR',

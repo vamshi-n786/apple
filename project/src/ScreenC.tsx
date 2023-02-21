@@ -12,30 +12,16 @@ import {
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import TabNav from './components/TabNav';
 const Tab = createBottomTabNavigator();
-import SpeechRecognitionScreen from './screens/speech-recognition.screeen';
-import TextToSpeechScreen from './screens/text-to-speech.screeen';
+
  export default function ScreenC({navigation}){
     const onPressHandler = ()=>{
         navigation.navigate('Screen_D');
     }
     return(
         <>
-        <NavigationContainer>
-        <Tab.Navigator
-      screenOptions={
-        {
-          headerShown: false,
-          tabBarIconStyle: {
-            display: 'none',
-          }
-        }
-      }
-    >
-      <Tab.Screen name="TTS" component={TextToSpeechScreen}/>
-      <Tab.Screen name="ASR" component={SpeechRecognitionScreen} />
-        </Tab.Navigator>
-      </NavigationContainer>
+        <TabNav/>
         <View style={styles.body}>
             <Text style={styles.text}>
                 ScreenC

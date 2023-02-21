@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Button, StyleSheet, Text, View } from "react-native";
+import React, {useState, useEffect} from 'react';
+import {Button, StyleSheet, Text, View} from 'react-native';
 import Voice, {
   SpeechResultsEvent,
   SpeechErrorEvent,
