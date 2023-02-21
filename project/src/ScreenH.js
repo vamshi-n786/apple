@@ -10,21 +10,22 @@ import {
     View,
   } from 'react-native';
 
- export default function ScreenD({navigation}){
+ export default function ScreenH({navigation}){
     const onPressHandler = ()=>{
-        navigation.navigate('Screen_E');
+        navigation.navigate('Screen_A');
     }
     return(
         <View style={styles.body}>
             <Text style={styles.text}>
-                ScreenD
+                ScreenH 
+                Match the words
             </Text>
             <Pressable
             onPress={onPressHandler}
             style={({pressed})=>({backgroundColor:pressed ?'#ddd':'#0f0'})}
             >
                 <Text style={styles.text}>
-                    Go to ScreenE
+                    Go to ScreenA
                 </Text>
             </Pressable>
         </View>
